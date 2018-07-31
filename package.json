@@ -2,8 +2,9 @@
   "name": "openvidu-insecure-angular",
   "version": "2.2.0",
   "license": "Apache-2.0",
-  "scripts": {
-    "start": "ng serve"
+  "scripts": {  
+    "ng": "ng",
+    "start": "node server.js"
   },
   "dependencies": {
     "@angular/common": "6.0.9",
